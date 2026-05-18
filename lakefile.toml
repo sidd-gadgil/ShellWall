@@ -1,0 +1,10 @@
+name = "ShellWall"
+version = "0.1.0"
+defaultTargets = ["shellwall"]
+
+[[lean_lib]]
+name = "ShellWall"
+
+[[lean_exe]]
+name = "shellwall"
+root = "Main"
